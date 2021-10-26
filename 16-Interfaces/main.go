@@ -5,6 +5,7 @@ import (
 	"math"
 )
 
+//As interfaces possuem SOMENTE assinaturas de métodos, nada mais!
 type forma interface {
 	area() float64
 }
