@@ -19,12 +19,12 @@ type retangulo struct {
 	largura float64
 }
 
-func (ret retangulo) area() float64 {
-	return ret.altura * ret.largura
-}
-
 type ciruclo struct {
 	raio float64
+}
+
+func (ret retangulo) area() float64 {
+	return ret.altura * ret.largura
 }
 
 func (circ ciruclo) area() float64 {
