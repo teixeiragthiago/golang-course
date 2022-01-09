@@ -14,11 +14,11 @@ func TestAddressTypesMustReturnSuccess(t *testing.T) {
 		{"Rua ABC", "Rua"},
 		{"Avenida Paulista", "Avenida"},
 		{"Rodovia dos Imigrantes", "Rodovia"},
-		{"Praça das Rosas", "Tipo inválido"},
+		// {"Praça das Rosas", "Tipo inválido"},
 		{"Estrada Qualquer", "Estrada"},
 		{"AVENIDA REBOUÇAS ", "Avenida"},
 		{"Estrada Qualquer", "Estrada"},
-		{"", "Tipo inválido"},
+		// {"", "Tipo inválido"},
 	}
 
 	for _, scen := range testScenarios {

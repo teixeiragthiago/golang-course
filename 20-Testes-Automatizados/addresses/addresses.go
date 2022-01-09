@@ -2,6 +2,14 @@ package addresses
 
 import "strings"
 
+/*
+	go test --cover -> para checar a porctg da cobertura de testes
+	go test --coverprofile 'filename.txt' -> gerar relatorio
+	go tool cover --func=filename.txt -> pra ler o relatório gerado
+	go tool cover --html=filename.txt -> jeito mais legal do mundo
+	pra ler os relatórios
+*/
+
 //AddressTypes validates input address is valid
 func AddressTypes(endereco string) string {
 	validTypes := []string{"rua", "avenida", "estrada", "rodovia"}
